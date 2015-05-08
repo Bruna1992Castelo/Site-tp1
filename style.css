@@ -28,7 +28,6 @@ body {
 	position: relative;
 	padding-left: 10px;
 	background-color: white;
-
 }
 
 #conteudo img{
@@ -99,11 +98,11 @@ li a:hover {
 }
 
 #index{
-border-bottom: 1px solid;
-font-size:26px;
-height: 13px;
-margin: 20px auto 35px;
-width: 600px;
+	border-bottom: 1px solid;
+	font-size:26px;
+	height: 13px;
+	margin: 20px auto 35px;
+	width: 600px;
 }
 
 #index span{
@@ -116,11 +115,11 @@ width: 600px;
 }
  
 #projeto{
-border-bottom: 1px solid;
-font-size:26px;
-height: 26px;
-margin: 20px auto 35px;
-width: 600px;
+	border-bottom: 1px solid;
+	font-size:26px;
+	height: 26px;
+	margin: 20px auto 35px;
+	width: 600px;
 }
 
 #projeto span{
@@ -133,11 +132,12 @@ width: 600px;
 }
 
 #curriculum{
-border-bottom: 1px solid;
-font-size:26px;
-height: 13px;
-margin: 20px auto 35px;
-width: 600px;
+	border-bottom: 1px solid;
+	font-size:26px;
+	height: 13px;
+	margin: 20px auto 35px;
+	width: 600px;
+	font-family: Arial,Helvetica,sans-serif;
 }
 
 #curriculum span{
@@ -150,11 +150,11 @@ width: 600px;
 }
 
 #contato{
-border-bottom: 1px solid;
-font-size:26px;
-height: 13px;
-margin: 20px auto 35px;
-width: 600px;
+	border-bottom: 1px solid;
+	font-size:26px;
+	height: 13px;
+	margin: 20px auto 35px;
+	width: 600px;
 }
 
 #contato span{
@@ -164,4 +164,20 @@ width: 600px;
     margin-top: 15px;
     width: 100px;
 	text-align: center;
+}
+
+#foot{
+	background-color: white;
+}
+
+h3 {
+    color: #a33636;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#conteudo p{
+	font-family: Arial,Helvetica,sans-serif;
 }
