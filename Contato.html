@@ -1,0 +1,87 @@
+﻿<html>
+<head>
+	<title>Bruna Castelo</title>
+	<link rel="stylesheet" href="style.css" />
+	  
+
+	<script
+		src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=true">
+    </script>
+
+    <script>
+		var myCenter=new google.maps.LatLng(-19.8898308, -43.9951031);
+	
+		function initialize()
+		{
+			var mapProp = {
+			center:myCenter,
+			zoom:15,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+			};
+		
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			var marker=new google.maps.Marker({
+				position:myCenter,
+			});
+			
+			marker.setMap(map);
+	
+			var infowindow = new google.maps.InfoWindow({
+				content:"Onde me encontrar!"
+			});
+
+			google.maps.event.addListener(marker,'click',function() {
+				map.setZoom(12);
+				map.setCenter(marker.getPosition());
+				infowindow.open(map,marker);
+			});
+		}
+	
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
+	  
+	  
+	  
+</head>
+
+<body>
+<div id="recipiente">
+	<div id="cabecalho">
+		<img src="img/logo.png">
+	</div>
+	
+	<ul id="menu">
+		<li><a class="Inicio" href="index.html">&lt;Inicial&gt;</a></li>
+		<li><a class="Projeto" href="Projeto.html">&lt;Projeto&gt</a></li>
+		<li><a class="Curriculum" href="Curriculum.html">&lt;Curriculum&gt</a></li>
+		<li><a class="Contato" href="Contato.html">&lt;Contato&gt</a></li>
+	</ul>
+	
+	<div id="conteudo">
+		<div id="contato"><span><b>Contato</b></span></div>
+		
+		<p><b><h3 style="text-align:center;">Entre em contato vindo ao meu encontro</h3></b></p>		
+		
+		<p style="float:right; margin-right:100px; margin-top:100px;">
+            <b>Telefone para contato: </b>(31)9126-5973<br>
+            <b>Endereço Residencial: </b>Rua bla bla bla, 197, Castelo - BH<br>
+            <b>Endereço Trabalho: </b>Cristiano Machado<br>
+            <b>Endereço Faculdade: </b>CEFET-MG<br>
+        </p>    
+	
+		<div id="googleMap" style="width:600px;height:400px;"></div>            
+		
+	</div>
+	<div id="foot" style="padding-top:50px;">
+		<p><b><h3 style="text-align:center;">Me encontre também nas Redes Sociais</h3></b></p>		
+		<!--Pegar caminho aos links-->
+		<img src="img/facebook.png" style="padding-left:380px;">
+		<img src="img/linkenIn.png">
+		<img src="img/google.png">
+	</div>
+	
+</div>
+</body>
+ 
+</html>

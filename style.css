@@ -1,0 +1,167 @@
+@import "fonts/style.css";
+@import url(http://fonts.googleapis.com/css?family=Anton);
+body {
+   margin:0;
+   background-image: url("img/bg.jpg");
+}	
+
+#recipiente{
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid #D3D3D3;
+	/*height: 100%;*/
+}
+
+#cabecalho{
+	background-image:linear-gradient(to bottom, #FFFAF0, #FA8072);
+	height: 250px;
+	text-align: center;
+}
+
+#cabecalho img{
+	padding-top: 40px;
+}
+		
+#conteudo{
+	/*border: 2px solid #D3D3D3;*/
+	position: relative;
+	padding-left: 10px;
+	background-color: white;
+
+}
+
+#conteudo img{
+	margin-right: 70px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#menu{
+	padding-left: 150px;
+	height: 60px;
+	margin: 0px;
+	border: 3px solid black;
+	background: black;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 1em;
+	font-family : 'Kulminoituva';
+    font-size : 30px ;
+     padding: 12px ;	
+}
+ 
+li a {
+	color: red;
+    /*color: #544738;*/
+    text-decoration: none;
+    float: left;
+  }
+ 
+li a:hover {
+	color: #7eb9be;
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.left a:hover {
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+ 
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+}
+
+#conteudo h2{
+	text-align:center;
+}
+
+#index{
+border-bottom: 1px solid;
+font-size:26px;
+height: 13px;
+margin: 20px auto 35px;
+width: 600px;
+}
+
+#index span{
+    background: none repeat scroll 0px 0px #FFF;
+    display: block;
+    margin-left:200px;
+    margin-top: 15px;
+    width: 200px;
+	text-align: center;
+}
+ 
+#projeto{
+border-bottom: 1px solid;
+font-size:26px;
+height: 26px;
+margin: 20px auto 35px;
+width: 600px;
+}
+
+#projeto span{
+    background: none repeat scroll 0px 0px #FFF;
+    display: block;
+    margin-left:100px;
+    margin-top: 15px;
+    width: 400px;
+	text-align: center;
+}
+
+#curriculum{
+border-bottom: 1px solid;
+font-size:26px;
+height: 13px;
+margin: 20px auto 35px;
+width: 600px;
+}
+
+#curriculum span{
+    background: none repeat scroll 0px 0px #FFF;
+    display: block;
+    margin-left:225px;
+    margin-top: 15px;
+    width: 150px;
+	text-align: center;
+}
+
+#contato{
+border-bottom: 1px solid;
+font-size:26px;
+height: 13px;
+margin: 20px auto 35px;
+width: 600px;
+}
+
+#contato span{
+    background: none repeat scroll 0px 0px #FFF;
+    display: block;
+    margin-left:250px;
+    margin-top: 15px;
+    width: 100px;
+	text-align: center;
+}
