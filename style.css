@@ -99,7 +99,7 @@ li a:hover {
 
 #index{
 	border-bottom: 1px solid;
-	font-size:26px;
+	font-size:24px;
 	height: 13px;
 	margin: 20px auto 35px;
 	width: 600px;
@@ -116,7 +116,7 @@ li a:hover {
  
 #projeto{
 	border-bottom: 1px solid;
-	font-size:26px;
+	font-size:24px;
 	height: 26px;
 	margin: 20px auto 35px;
 	width: 600px;
@@ -133,11 +133,10 @@ li a:hover {
 
 #curriculum{
 	border-bottom: 1px solid;
-	font-size:26px;
-	height: 13px;
+	font-size:25px;
+	height: 15px;
 	margin: 20px auto 35px;
 	width: 600px;
-	font-family: Arial,Helvetica,sans-serif;
 }
 
 #curriculum span{
@@ -151,8 +150,8 @@ li a:hover {
 
 #contato{
 	border-bottom: 1px solid;
-	font-size:26px;
-	height: 13px;
+	font-size:24px;
+	height: 15px;
 	margin: 20px auto 35px;
 	width: 600px;
 }
@@ -173,7 +172,13 @@ li a:hover {
 h3 {
     color: #a33636;
     font-family: Arial,Helvetica,sans-serif;
-    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
+h4{
+	color: #a33636;
+    font-family: Arial,Helvetica,sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
